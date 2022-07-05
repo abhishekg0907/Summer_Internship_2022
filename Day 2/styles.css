@@ -1,0 +1,31 @@
+html {
+    height: 100%;                    
+  }
+body {                   
+    overflow: hidden;                         
+}
+
+#left_ul *{
+    list-style-type: none;
+    margin-bottom: 1px;
+    text-decoration: none;
+    text-align: left;
+}
+.line {
+    border-left: 3px solid black;
+    height: 661px;
+    position:absolute;
+    top:0px;
+    left: 21%;
+}
+.right {
+    margin-top: -185px;
+    margin-left: 300px;
+    overflow-y: auto;
+    height: 662px;
+    overflow: scroll; 
+}
+.heading>h1 {
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
