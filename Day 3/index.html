@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="left">
+            <h2>
+                Technical Documentation
+            </h2>
+            <ul id="left_ul">
+                <li> <a href="#intro">Introduction to HTML</a> </li>
+                <li> <a href="#need">Why HTML is used ?</a> </li>
+                <li> <a href="#basics">Basics of HTML5</a> </li>
+                <li> <a href="#head">Head Tag in HTML</a> </li>
+                <li> <a href="#pic">Picture Tag in HTML</a> </li>
+            </ul>
+        </div>
+        <div class="line"></div>
+        <div class="right">
+            <div class="heading" id="intro">
+                <h1>Introduction</h1>
+                <p>
+                    HTML stands for Hyper Text Markup Language. It is used to design web pages using a markup language.
+                    HTML is an abbreviation of Hypertext and Markup language. Hypertext defines the link between the web
+                    pages. The markup language is used to define the text document within the tag which defines the
+                    structure of web pages. HTML 5 is the fifth and current version of HTML. It has improved the markup
+                    available for documents and has introduced application programming interfaces(API) and Document
+                    Object Model(DOM).
+                </p>
+            </div>
+            <div class="heading" id="need">
+                <h1>Why HTML is used ?</h1>
+                <p>
+                    HTML is the language for describing the structure of Web pages. HTML gives authors the means to:
+                    Publish online documents with headings, text, tables, lists, photos, etc. Retrieve online
+                    information via hypertext links, at the click of a button.
+                    HTML5 combines HTML, CSS3 and Java script technologies and shows impressive results unreachable with
+                    simple HTML means.
+                <h2>The Rules behind HTML5</h2>
+                <ul>
+                    <li>New features should be based on HTML, CSS, DOM, and JavaScript</li>
+                    <li>Reduce the need for external plugins (like Flash)</li>
+                    <li>Better error handling</li>
+                    <li>More markup to replace scripting</li>
+                    <li>HTML5 should be device independent</li>
+                    <li>The development process should be visible to the public</li>
+                </ul>
+                </p>
+            </div>
+            <div class="heading" id="basics">
+                <h1>Basics of HTML5</h1>
+                <p>
+                    HTML5 was initially created by WHATWG (web hypertext application technology working group) with the
+                    name “Web Application 1.0” in 2004. Apple, Mozilla and Opera started up WHATWG as a result of W3C
+                    saying no to extend HTML. In 2007, W3C dropped egg-bound XHTML2 and moved its step to form HTMLWG
+                    working together with WHATWG to create HTML5.
+
+                    The first draft of HTML5 was released in 2008. The final spec of HTML5 won't be ready until 2022,
+                    but you don't have to wait that long to start using it today and build really advanced web apps.
+
+                    HTML (HyperText Markup Language) is the code that is used to structure a web page and its content.
+                    For example, content could be structured within a set of paragraphs, a list of bulleted points, or
+                    using images and data tables. As the title suggests, this article will give you a basic
+                    understanding of HTML and its functions.
+                    <br><br>
+                    HTML consists of a series of elements, which you use to enclose, or wrap, different parts of the
+                    content to make it appear a certain way, or act a certain way. The enclosing tags can make a word or
+                    image hyperlink to somewhere else, can italicize words, can make the font bigger or smaller, and so
+                    on.
+                </p>
+            </div>
+            <div class="heading" id="head">
+                <h1>Head Tag</h1>
+                <p>
+                    The head element is a container for metadata (data about data) and is placed between the html tag
+                    and the body tag.
+                    <br><br>
+                    Metadata is data about the HTML document. Metadata is not displayed.
+                    <br><br>
+                    Metadata typically define the document title, character set, styles, scripts, and other meta
+                    information.
+                    <br><br>
+                    The following elements can go inside the head element:
+                <ul>
+                    <li>Title</li>
+                    <li>Style</li>
+                    <li>Base</li>
+                    <li>Link</li>
+                    <li>Meta</li>
+                    <li>Script</li>
+                    <li>Noscript</li>
+                </ul>
+                </p>
+            </div>
+            <div class="heading" id="pic">
+                <h1>Picture Tag</h1>
+                <p>
+                    The "Picture" tag gives web developers more flexibility in specifying image resources.
+                    <br><br>
+                    The most common use of the "picture" element will be for art direction in responsive designs.
+                    Instead of having one image that is scaled up or down based on the viewport width, multiple
+                    images can be designed to more nicely fill the browser viewport.
+                    <br><br>
+                    The "Picture" element contains two tags:
+                <ul>
+                    <li>Source</li>
+                    <li>Image</li>
+                </ul>
+                Example of an image is below here:
+                <br>
+                <picture>
+                    <source media="(min-width : 1000px)"
+                        srcset="https://i0.wp.com/owlovertheworld.com/wp-content/uploads/2017/04/1-1.jpg?w=1024&ssl=1">
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/41/2d/80/waterton-lake-national.jpg?w=600&h=400&s=1"
+                        alt="Mountain_View">
+                </picture>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

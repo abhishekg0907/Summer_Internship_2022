@@ -1,0 +1,58 @@
+html {
+    height:100%;    
+    background-color: rgb(210, 240, 230);
+  }
+body {                   
+    overflow: hidden;           
+    display: flex;              
+}
+
+#left_ul *{
+    list-style-type: none;
+    margin-bottom: 1px;
+    text-decoration: none;
+    text-align: left;
+    cursor: pointer;
+}
+.line {
+    border-left: 3px solid black;
+    height:100%;
+    position:absolute;
+    top:0px;
+    left: 21%;
+}
+.right {
+    margin-top: -185px;
+    margin-left: 300px;
+    overflow-y: auto;
+    height: 662px;
+    overflow: scroll; 
+    scroll-behavior: smooth;
+}
+.heading>h1 {
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+.heading>h1:hover,#left_ul *:hover{
+    color: red;
+}
+@media only screen and (max-width:575px) {
+
+    /* For Tablets */
+    html {   
+        background-color: rgb(24, 138, 100);
+      }
+      .line{
+        border-left: 0px solid black;
+      }
+}
+@media only screen and (max-width:300px) {
+
+    /* For Mobile Phones */
+    html {   
+        background-color: rgb(77, 139, 96);
+      }
+      .line{
+        border-left: 0px solid black;
+      }
+}
